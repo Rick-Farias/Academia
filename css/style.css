@@ -8,11 +8,12 @@
     font-family:'Poppins' , Arial, sans-serif;
 }
 
-
 .container{
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+
 body{
      background-image: linear-gradient(to bottom right, #CDCDD4, #F7F7FF); 
     background-attachment: fixed;
@@ -260,6 +261,7 @@ header a:hover{
 #sec3 .text-card{
     text-align: left;
     margin-top: 40px;
+    margin-left: 20px;
 }
 #sec3 .text-card h2{
     font-size: 4.0rem;
@@ -271,12 +273,14 @@ header a:hover{
 	border-top-width: 1px;
     padding-bottom: 20px;
 }
+
 #sec3 .text-card .title-card h2:last-child{
     color: #8979F2;
 }
 #sec3 .p-card p{
     font-size: 1.0rem;
     font-weight: 300;
+    max-width: 550px;
 }
 #sec3 .p-card p:first-child{
     margin-top: 25px;
@@ -323,6 +327,7 @@ header a:hover{
 .planos2{
     margin-top: 30px;
     margin-left: 80px;
+    margin-right: 10px;
     background-color: #fff;
     box-shadow: 25px 25px 25px -30px #7cfabf;
 }
@@ -433,6 +438,7 @@ footer hr{
         width: 900px;
         align-items: center;
         text-align: center;
+        margin: 0;
         margin-bottom: 30px;
     }
 
@@ -485,6 +491,19 @@ footer hr{
     } 
 }
 @media screen and (max-width: 580px){
+    #sec1 .texto-1{
+        max-width: 400px;
+    }
+    #sec1 .p-texto{
+        font-size: 50px;
+    }
+    #sec3 .text-card h2{
+        font-size: 50px;
+    }
+    #sec3 .text-card{
+        max-width: 350px;
+    }
+
     .all-cards{
         flex-direction: column;
         justify-content: center;
