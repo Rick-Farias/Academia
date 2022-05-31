@@ -55,6 +55,9 @@ header .nav-list{
     padding-top: 18px;
     color: #222222;
 }
+header .nav-list a{
+    color: #222222;
+}
 header .nav-title h2 a{
     color: #8979F2;
     cursor: pointer;
