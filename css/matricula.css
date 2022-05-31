@@ -50,7 +50,7 @@ header .nav-list{
     padding-top: 18px;
     color: #222222;
 }
-header a{
+header a:link{
     color: #222222;
 }
 
