@@ -13,6 +13,7 @@ body {
     width: 100%;
     height: 100vh;
     color: #222222;
+    overflow-y: hidden;
 }
 
 
@@ -151,6 +152,9 @@ header .hide {
     margin: auto;
     padding: 10px;
 }
+.formulario input[name=cadastro]{
+    margin-bottom: 15px;
+}
 .formulario input{
     width: calc(100% - 32px);
     height: 30px;
@@ -158,52 +162,48 @@ header .hide {
     align-items: center;
     border: none;
     border-radius: 2px;
+    padding-left: 10px;
+}
+
+.formulario p{
+    font-size: 0.7rem;
+    text-align: left;
+    margin-left: 25px;
+    color: #5c5b5b;
 }
 .formulario , input:focus, select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
 }
-.formulario .btn-login{
+.formulario .btn-cadastro{
     background-color: #b4a9fc;
     transition:background-color .3s ease-in;
     width: 80%;
     height: 40px;
     margin-top: 30px;
-    text-decoration: none;
     border: none;
     border-radius: 5px;
     margin-left: 16px;
     cursor: pointer;
     font-size: 1.3rem;
     color: #313131;
-    margin-bottom: 20px;
 }
-.formulario .btn-login:hover{
+.formulario .btn-cadastro:hover{
     background-color: #bfb6fa;
 }
-
-.login-texto a{
-    color: #8979F2;
-    font-size: 0.9rem;
-}
-.login-texto a:first-child{
-    color: #222222;
-    margin-right: 60px;
-}
-
 .ou{
     display: inline-block;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 20px 0px;
     font-weight: bold;
 }
 
-.meios-login ul{
+.meios-cadastro ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.meios-login ul li{
+.meios-cadastro ul li{
     margin-right: 30px;
     margin-left: 30px;
 }
